@@ -1,0 +1,171 @@
+﻿namespace MVC01.Models
+{
+    public class style
+{
+                width: max-content;
+                min-width: 160px;
+                background: #fff;
+                border-radius: 10px;
+                padding: 10px;
+                box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+                z-index: 99;
+                display: none;
+           
+}
+
+            .page table td.action ul.action-menu li {
+                    padding: 8px 12px;
+                    border-radius: 6px;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+               
+}
+
+            .page table td.action ul.action-menu button {
+                    padding: 0 !important;
+               
+}
+
+            .page table td.action ul.action-menu li:hover {
+                    background-color: #f5f5f5;
+               
+}
+
+        .page table td.action:has(input:checked) input + ul.action-menu {
+                display: block;
+           
+}
+/* ^ Modals */
+
+.modal-content {
+        margin-top: 2vh; /* 10% of viewport height */
+}
+
+.card-details ul {
+        margin-left: -20px;
+}
+
+    .card-details ul li {
+            cursor: pointer;
+       
+}
+
+.icon-box {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(7, 0, 147, 0.1);
+        border-radius: 10px;
+}
+
+.plan-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .plan-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1) !important;
+       
+}
+
+.session-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .session-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15) !important;
+       
+}
+
+.info-item {
+        font-size: 0.9rem;
+}
+
+.bg-primary {
+        background-color: #070093 !important;
+}
+
+.icon-box {
+        min-width: 50px;
+}
+
+.detail-box {
+        transition: all 0.3s ease;
+}
+
+    .detail-box:hover {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transform: translateY(-2px);
+       
+}
+
+@media screen and (max-width: 576px) {
+        section.about .characters {
+                transform: translateX(-40%);
+           
+    }
+
+        section.about .features {
+                text-align: center;
+           
+    }
+
+            section.about .features .title {
+                    justify-content: center;
+                    margin-left: -15px;
+               
+    }
+
+        section.workout .title h2 {
+                font-size: 40px;
+           
+    }
+
+        section.workout .title p {
+                font-size: 18px !important;
+           
+    }
+}
+
+.get-started {
+        background-color: var(--primary-color);
+        color: #fff;
+        border: 2px solid var(--primary-color);
+        transition: all 0.3s ease;
+        border-radius: 30px;
+        padding: 10px 20px;
+}
+
+    .get-started:hover {
+            background-color: transparent;
+            color: var(--primary-color);
+            border-color: var(--primary-color);
+            -webkit-background-clip: border-box; /* cancel any text-clip */
+            background-clip: border-box; /* ensure normal coloring */
+            -webkit-text-fill-color: var(--primary-color); /* fix text rendering */
+       
+}
+
+.explore-more {
+        background-color: transparent;
+        color: var(--primary-color);
+        border: 2px solid var(--primary-color);
+        border-radius: 30px;
+        transition: all 0.3s ease;
+        -webkit-text-fill-color: var(--primary-color); /* fix Chrome text rendering */
+}
+
+    .explore-more:hover {
+            background-color: var(--primary-color);
+            color: #fff;
+            border-color: var(--primary-color);
+            -webkit-text-fill-color: #fff; /* ensures text stays visible on hover */
+       
+}
+    }
+}
